@@ -6,7 +6,7 @@ import { Users } from './users.js'
 app.use(cors())
 
 app.get('/', (req, res) => {
-  res.json(User)
+  res.json(Users)
 })
 
 app.listen(5001, () => console.log('Server is listening on port 5001'))
